@@ -5,7 +5,7 @@ import { IoWater } from "react-icons/io5";
 
 function InfoCard({ weather }) {
   return (
-    <div className="flex items-center p-5 mt-4 space-x-16 text-sm text-[#FFE142] bg-black w-[80vw] lg:w-[15vw] text- mx-11 rounded-xl">
+    <div className="flex items-center p-5 mt-4 space-x-16 text-sm text-[#FFE142] bg-black w-[80vw] lg:w-[25vw] lg:space-x-20 text- mx-11 rounded-xl justify-center">
       <div>
         <div className="flex flex-col items-center ">
           <BiWind className="w-6 h-6 mb-2 animate-pulse" />
